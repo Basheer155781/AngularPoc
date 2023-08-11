@@ -1,0 +1,19 @@
+<mat-card class="login-mat-card mx-auto shadow p-4">
+  <mat-card-content>
+    <form [formGroup]="form" (ngSubmit)="loginSubmit()">
+      <p>
+        <mat-form-field class="login-fields">
+          <input type="text" matInput placeholder="Username" formControlName="username">
+        </mat-form-field>
+      </p>
+      <p>
+        <mat-form-field class="login-fields">
+          <input type="password" matInput placeholder="Password" formControlName="password">
+        </mat-form-field>
+      </p>
+      <div class="text-end">
+        <button type="submit" mat-button class="shadow btn-primary">Login</button>
+      </div>
+    </form>
+  </mat-card-content>
+</mat-card>

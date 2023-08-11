@@ -1,0 +1,31 @@
+<mat-card class="update-mat-card mx-auto shadow p-2">
+  <mat-card-title class="text-center text-primary">ADD USER</mat-card-title>
+  <mat-card-content>
+    <form [formGroup]="form" (ngSubmit)="addSubmit()">
+      <p>
+        <mat-form-field class="login-fields">
+          <input type="text" matInput placeholder="firstName" formControlName="firstName">
+        </mat-form-field>
+      </p>
+      <p>
+        <mat-form-field class="login-fields">
+          <input type="text" matInput placeholder="lastName" formControlName="lastName">
+        </mat-form-field>
+      </p>
+      <p>
+        <mat-form-field class="login-fields">
+          <input type="number" matInput placeholder="age" formControlName="age">
+        </mat-form-field>
+      </p>
+      <p>
+        <mat-form-field class="login-fields">
+          <input type="text" matInput placeholder="job" formControlName="job">
+        </mat-form-field>
+      </p>
+      <div class="text-end pe-3">
+        <button type="button" mat-button class="shadow btn-warning me-3" (click)="navigateToHome()">Cancel</button>
+        <button type="submit" mat-button class="shadow btn-primary">Add</button>
+      </div>
+    </form>
+  </mat-card-content>
+</mat-card>

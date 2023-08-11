@@ -1,0 +1,14 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "firstName": "shaik",
+      "lastName": "basheer",
+      "age": 27,
+      "job": "UI Developer"
+    }
+  ],
+  "token": {
+    "jwt":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJPbmxpbmUgSldUIEJ1aWxkZXIiLCJpYXQiOjE2OTE3NTcxOTIsImV4cCI6MTcyMzI5MzE5MiwiYXVkIjoid3d3LmV4YW1wbGUuY29tIiwic3ViIjoiYmFzaGVlckBlbWFpbC5jb20iLCJHaXZlbk5hbWUiOiJiYXNoZWVyIiwiU3VybmFtZSI6InNoYWlrIiwiRW1haWwiOiJiYXNoZWVyQGVtYWlsLmNvbSJ9.zoiLw-1UX6xLVGlHXbbVFiQBhQusqEKwF2WV4yjU_kA"
+  }
+}
